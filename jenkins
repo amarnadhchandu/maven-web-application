@@ -15,7 +15,7 @@ node
         sh "${mavenHome}/bin/mvn clean package "
     }
    
-   
+   /*
    stage('Execute sonar report')
     {
         
@@ -36,6 +36,7 @@ node
         
         
     } 
+    */
     
     stage('send email')
     {
