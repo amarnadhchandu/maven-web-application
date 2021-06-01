@@ -15,7 +15,7 @@ node('samsung-node')
         sh "${mavenHome}/bin/mvn clean package "
     }
    
-   /*
+   
    stage('Execute sonar report')
     {
         
@@ -36,7 +36,7 @@ node('samsung-node')
         
         
     } 
-    */
+    
     
     stage('send email')
     {
